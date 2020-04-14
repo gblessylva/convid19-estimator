@@ -52,11 +52,12 @@ const covid19ImpactEstimator = (data) => {
         return Math.trunc((severeDollars * data.region.avgDailyIncomeInUSD) / days);
       }
     };
-    return {
+    return {    
       data,
       impact,
       severeImpact
     };
   };
+  console.log(hello) 
   
   export default covid19ImpactEstimator;
