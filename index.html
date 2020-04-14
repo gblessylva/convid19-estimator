@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONVID19 Impact Estimator Built by Sylvanus</title>
+    <link rel="stylesheet" href="./assets/app.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="heading-container">
+                <h1>BuildForSDG 2020</h1>
+                <h2>A Convid19 Estimator Application</h2>
+                <p>An attempt in </p>
+            </div>
+            <form action="">
+                <div class="form-item-wrapper">
+                    <label for="population">Population</label>
+                    <input type="number" data-population="population">
+                </div>
+                <div class="form-item-wrapper">
+                    <label for="timeToElapse">Time</label>
+                    <input type="number" data-time-to-elapse="timeToElapse">
+                </div>
+                <div class="form-item-wrapper">
+                    <label for="Reported Case">Reported Cases</label>
+                    <input type="number" data-reported-case="reportedCase">
+                </div>
+                <div class="form-item-wrapper">
+                    <label for="totalHospitalBed">Total Hospital Bed</label>
+                    <input type="number" data-total-hospital-bed="totalHospitalBed">
+                </div>
+                <div class="form-item-wrapper">
+                    <label for="timeToElapse">Period Type</label>
+                    <select name="periodType" data-period-type="period" >
+                        <option value="days" selected>
+                            Days
+                        </option>
+                        <option value="weeks">Weeks</option>
+                        <option value="month">Months</option>
+                    </select>
+                </div>
+                <div class="form-item-wrapper">
+                    <input type="submit" value="Estimate" data-go-estimate="estimate">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -33,6 +33,9 @@ body > .wrapper > .container{
     padding:1.5rem 3rem;
     text-align: center;
 }
+.heading-container>h1, .heading-container>h2, .heading-container >p {
+    padding:0.5rem 0;
+}
 body > .wrapper > .container >form{
     background-color: rgba(0, 0, 0, 0.7);
     width:35rem;
